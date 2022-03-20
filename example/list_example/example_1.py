@@ -6,4 +6,8 @@ Date: 2022/3/20
 """
 nums = [23, 34, 46, 57, 68, 79]
 for i in range(len(nums)):
-    print(nums[i])
+    print(nums[i], end='\t')
+print()
+print('=' * 30)
+for num in nums:
+    print(num, end='\t')
