@@ -28,3 +28,16 @@ print('=' * 30)
 
 for i in range(len(list1)):
     print(list1[i])
+
+# 和列表相关的运算
+# 重复运算
+list4 = [1, 10, 100] * 5
+print(list4)
+print('=' * 30)
+
+# 成员运算 ---> in/not in --->True/False
+print(10 in list4)
+print(5 not in list4)
+
+# 索引和切片
+# 正想索引: 0 ~ N-1 / 负向索引 -N ~ -1
