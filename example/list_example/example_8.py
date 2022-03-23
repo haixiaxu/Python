@@ -15,7 +15,7 @@ while len(nums) > 0:
 print(nums)
 print(sorted_nums)
 
-print('=' * 50)
+print('=' * 20)
 
 nums2 = [35, 12, 56, 88, 56, 45, 49, 31, 21]
 for i in range(len(nums2) - 1):
